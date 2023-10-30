@@ -1,0 +1,67 @@
+.box1 {
+    margin: 20px;
+}
+
+.box2 {
+    margin: 10px; 
+    display: inline-block;
+}
+
+.box3 {
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    border: 2px dotted black
+}
+
+.box4 {
+    border: 2px solid blue;
+}
+
+.box5 {
+    background-color: bisque;
+    color:brown ;
+    padding: 10px;
+}  
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: yellow; 
+    border-radius: 50%; 
+    border: 2px dashed red; 
+    margin: 10px;
+}
+
+.dotted-border {
+    border: 3px dotted green; 
+    margin: 5px;
+}
+
+.dashed-border {
+    border: 3px dashed orange; 
+    margin: 5px;
+}
+
+.double-border {
+    border: 3px double blue;
+    margin: 5px;
+}
+ 
+.menu {
+    display: flex; 
+    margin: 5px;
+}
+
+.menu a {
+    padding: 10px 20px; 
+    text-decoration: none;
+    background-color: #333;
+    color: #fff; 
+    margin-right: 10px;
+}
+  
+
+
+

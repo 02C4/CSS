@@ -1,0 +1,23 @@
+div ~ p {
+    font-weight: bold;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: rgb(33, 15, 73);
+}
+
+h1 ~ p {
+    color: aquamarine;
+}
+h2 + p {
+    color: rgb(51, 133, 60);
+}
+
+h3:nth-child(odd) {
+    background-color: rgb(231, 237, 239);
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}

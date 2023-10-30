@@ -1,0 +1,137 @@
+.cabecalho {
+    color: white;
+    background-color: purple;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    padding: 4px 0;
+    text-align: center;
+    text-shadow: 3px 3px 3px green, -3px 3px 3px green, 3px -3px 3px green, -3px -3px 3px green;
+}
+
+body {
+    background-color: darkmagenta;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#htx {
+    background-color: purple;
+    color: aliceblue;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 3px 3px black, 5px 5px darkmagenta;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu li {
+    height: 100px;
+    width: 100px;
+    background-color:darkmagenta;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    position: fixed;
+}
+
+.menu li:nth-child(1) {
+    position: fixed; 
+    top: 100px; 
+    color:white; 
+}
+.menu li:nth-child(2) {
+    position: fixed; 
+    top: 200px; 
+    color: whitesmoke; }
+.menu li:nth-child(3) {
+    position: fixed; 
+    top: 300px; 
+    color:azure; }
+.menu li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.texto p{
+    color: lightgrey;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.texto {
+    max-width: calc(100% - 250px);
+    margin: 0 auto;
+}
+
+.tabela {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.tabela table {
+    width: 600px;
+    border-collapse: collapse;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.tabela th {
+    background-color: purple;
+    color: white;
+    font-weight: bolder;
+}
+
+.tabela th, td, tr {
+    margin: 0;
+    padding: 3px;
+}
+
+.tabela tr {    
+    border: 2px solid lightgray ;
+    color: darkmagenta;
+    background-color: lightgray;
+}
+
+.tabela tr:hover {
+    background-color: darkmagenta;
+    color: white;
+}
+
+#pnl {
+    text-align: center;
+}
+
+#pnl button {
+    background-color: darkmagenta;
+    margin: 20px 40px;
+    border: 0px;
+    box-shadow: 3px 3px 3px gray, -3px 3px 3px gray, 3px -3px 3px gray;
+}
+
+#pnl button:hover {
+    background-color: lightgray;
+}
+button img {
+    object-fit:fill;
+} 
+
+.rodape {
+     background-color: purple;
+     color: aliceblue;
+     text-align: center;
+     padding: 20px 0;
+}
+.rodape a {
+    border: 4px solid darkmagenta;
+    padding: 7px;
+    text-decoration: none;
+    color: aliceblue;
+}
